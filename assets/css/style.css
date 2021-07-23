@@ -43,8 +43,8 @@ text-transform: uppercase;
         margin: 86.60px 0;
         background-color: #6b6b69;
         box-shadow: 0 0 20px pink;
-        border-left: solid 5px gold;
-        border-right: solid 5px gold;
+        border-left: solid 5px #6b6b69;
+        border-right: solid 5px #6b6b69;
       }
       
       .bubble:before,
@@ -65,14 +65,14 @@ text-transform: uppercase;
       
       .bubble:before {
         top: -106.0660px;
-        border-top: solid 7.0711px gold;
-        border-right: solid 7.0711px gold;
+        border-top: solid 7.0711px #6b6b69;
+        border-right: solid 7.0711px #6b6b69;
       }
       
       .bubble:after {
         bottom: -106.0660px;
-        border-bottom: solid 7.0711px gold;
-        border-left: solid 7.0711px gold;
+        border-bottom: solid 7.0711px #6b6b69;
+        border-left: solid 7.0711px #6b6b69;
       }
 
 .bubble span {
@@ -87,11 +87,26 @@ text-transform: uppercase;
   }
 
  
+.about-me{
+    padding-top:20px;
+    text-align:center;
+}
 
+.about-me-text{
+    z-index:2;
+    position:absolute;
+
+}
+
+.lashes{
+    z-index:1;
+}
 
 .sketch-img img{
+    margin:10px;
     border-radius: 50%;
     border: solid 5px pink;
+    box-shadow:0 0 50px pink;
     width:80%;
     
 }
