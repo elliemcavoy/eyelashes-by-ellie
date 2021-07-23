@@ -42,7 +42,7 @@ text-transform: uppercase;
         height: 173.21px;
         margin: 86.60px 0;
         background-color: #6b6b69;
-        box-shadow: 0 0 20px pink;
+        box-shadow: 0 0 25px pink;
         border-left: solid 5px #6b6b69;
         border-right: solid 5px #6b6b69;
       }
@@ -54,7 +54,7 @@ text-transform: uppercase;
         z-index: 1;
         width: 212.13px;
         height: 212.13px;
-        box-shadow: 0 0 20px pink;
+        box-shadow: 0 0 25px pink;
         -webkit-transform: scaleY(0.5774) rotate(-45deg);
         -ms-transform: scaleY(0.5774) rotate(-45deg);
         transform: scaleY(0.5774) rotate(-45deg);
@@ -95,19 +95,23 @@ text-transform: uppercase;
 .about-me-text{
     z-index:2;
     position:absolute;
+    width:100%;
+    text-transform: uppercase;
+    color:#6b6b69;
 
 }
 
 .lashes{
     z-index:1;
+    top:45%;
+    position:relative;
 }
 
 .sketch-img img{
-    margin:10px;
+    margin:20px;
     border-radius: 50%;
-    border: solid 5px pink;
-    box-shadow:0 0 50px pink;
-    width:80%;
+    box-shadow:0 0 65px #fa8397dc;
+    width:70%;
     
 }
 
@@ -134,4 +138,25 @@ text-transform: uppercase;
 .treatment-title{
     text-align:center;
     text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+#footer{
+    background-color: pink;
+    text-align: center;
+}
+
+.footer-logo img{
+    margin-top:10px;
+    width:50%;
+    border-radius:70%;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
 }
