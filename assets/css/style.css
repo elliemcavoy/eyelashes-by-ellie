@@ -1,5 +1,7 @@
 
-
+.row{
+    margin:0px;
+}
 
 
 #logo-container{
@@ -19,17 +21,102 @@
 }
 
 
-.bubble{
-    padding-bottom:10px;
-    width:250px;
-    margin:10px;
-    margin-left:20px;
-    z-index:2;
+#bubble{
+z-index:2;
     position:absolute;
     left:60%;
-    top:45%;
+    top:20%;
     font-family:'Balsamiq Sans';
     text-align:right;
 text-transform: uppercase;
-    color:pink;}
+    color:pink;
+    }
+
+    #bubble span{
+        padding-right: 15px;
+    }
+
+    .bubble {
+        position: relative;
+        width: 300px; 
+        height: 173.21px;
+        margin: 86.60px 0;
+        background-color: #6b6b69;
+        box-shadow: 0 0 20px pink;
+        border-left: solid 5px gold;
+        border-right: solid 5px gold;
+      }
+      
+      .bubble:before,
+      .bubble:after {
+        content: "";
+        position: absolute;
+        z-index: 1;
+        width: 212.13px;
+        height: 212.13px;
+        box-shadow: 0 0 20px pink;
+        -webkit-transform: scaleY(0.5774) rotate(-45deg);
+        -ms-transform: scaleY(0.5774) rotate(-45deg);
+        transform: scaleY(0.5774) rotate(-45deg);
+        background-color: inherit;
+        left: 38.9340px;
+        
+      }
+      
+      .bubble:before {
+        top: -106.0660px;
+        border-top: solid 7.0711px gold;
+        border-right: solid 7.0711px gold;
+      }
+      
+      .bubble:after {
+        bottom: -106.0660px;
+        border-bottom: solid 7.0711px gold;
+        border-left: solid 7.0711px gold;
+      }
+
+.bubble span {
+    display: block;
+    position: absolute;
+    top:2.8867513459481287px;
+    left: 0;
+    width:290px;
+    height:167.4316px;
+    z-index: 2;
+    background: inherit;
+  }
+
+ 
+
+
+.sketch-img img{
+    border-radius: 50%;
+    border: solid 5px pink;
+    width:80%;
+    
+}
+
+
+
+.treatments-heading{
+    text-align: center;
+}
+
+.round-image{padding:10px;
+    
+}
+
+.round-image img{
+    text-align: center;
+    width:77%;
+    height:85%;
+    border-radius:50%;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+}
+
+.treatment-title{
+    text-align:center;
+    text-transform: uppercase;
 }
