@@ -1,0 +1,35 @@
+
+
+
+
+#logo-container{
+    margin:0px;
+    padding:0px;
+}
+#logo{
+    z-index: 1;
+    position:relative;
+    height: 100%;
+    width:100%;
+    padding:0px;
+}
+
+#logo img{
+    width:100%;
+}
+
+
+.bubble{
+    padding-bottom:10px;
+    width:250px;
+    margin:10px;
+    margin-left:20px;
+    z-index:2;
+    position:absolute;
+    left:60%;
+    top:45%;
+    font-family:'Balsamiq Sans';
+    text-align:right;
+text-transform: uppercase;
+    color:pink;}
+}
