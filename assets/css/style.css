@@ -141,7 +141,14 @@ text-transform: uppercase;
 }
 
 
-
+.treatments{
+    background-color: #6b6b69;
+    color: pink;
+    text-transform: uppercase;
+    text-align: center;
+    height:100px;
+    
+}
 
 
 
