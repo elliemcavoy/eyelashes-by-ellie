@@ -107,6 +107,13 @@ text-transform: uppercase;
     position:relative;
 }
 
+.grey-banner{
+    background-color: #6b6b69;
+    height:200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 .sketch-img img{
     margin:20px;
     border-radius: 50%;
@@ -146,8 +153,30 @@ text-transform: uppercase;
     color: pink;
     text-transform: uppercase;
     text-align: center;
-    height:100px;
+    height:400px;
     
+    
+}
+
+#bubble2{
+    left:40%;
+    top:5%;
+    text-align: center;
+    
+}
+
+.treatments h2{
+    padding-top:20px;
+    font-size: 35px;
+}
+
+#bubble2 img{
+    width:150px;
+    padding-top:20px;
+}
+
+.services{
+    margin-top:20px;
 }
 
 
